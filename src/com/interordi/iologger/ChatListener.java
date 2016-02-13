@@ -62,7 +62,7 @@ public class ChatListener implements Listener {
 		String log = timeFormat.format(date) + " | " + sender.getDisplayName() + "@" + pos.getWorld().getName() + "(" + Math.round(pos.getX()) + "," + Math.round(pos.getY()) + "," + Math.round(pos.getZ()) + "): " + message;
 		
 		try {
-			String folder = "plugins/iologger/logs/" + type + "/";
+			String folder = "plugins/IOLogger/logs/" + type + "/";
 			new File(folder).mkdirs();
 			
 			File file = new File(folder + dateFormat.format(date) + ".txt");
