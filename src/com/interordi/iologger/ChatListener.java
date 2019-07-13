@@ -39,7 +39,7 @@ public class ChatListener implements Listener {
 	 
 	 
 	@EventHandler
-	public void onPlayerJoin(PlayerLoginEvent event) {
+	public void onPlayerJoin(PlayerJoinEvent event) {
 		log(event.getPlayer(), "[" + event.getPlayer().getDisplayName() + " joined]", "chat");
 	}
 	
