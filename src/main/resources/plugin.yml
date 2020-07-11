@@ -1,28 +1,3 @@
 name: IOLogger
 main: com.interordi.iologger.IOLogger
 version: 1.0
-
-commands:
-#  basic:
-#    description: This is a demo command.
-#    usage: /basic [player]
-#    permission: iologger.basic
-#    permission-message: You don't have permission to use this command.
-#  basic2:
-#    description: This is a demo command.
-#    usage: /basic2 [player]
-#    permission: iologger.basic2
-#    permission-message: You don't have permission to use this command.
-
-permissions:
-  basic.*:
-    description: Gives access to all basic commands
-    children:
-      basic.open: true
-      basic.close: true
-  basic.open:
-    description: Allows you to open
-    default: op
-  basic.close:
-    description: Allows you to close
-    default: op

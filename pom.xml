@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.interordi</groupId>
   <artifactId>IOLogger</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>IOLogger</name>
   <description>Bukkit plugin, log chat and commands</description>
   <properties>
