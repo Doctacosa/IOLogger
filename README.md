@@ -1,5 +1,7 @@
 # IOLogger
 
+![Logo](https://www.interordi.com/images/plugins/iologger-96.png)
+
 This Bukkit plugin captures all chat lines and commands entered and stores them in matching log files, one per day.
 
 No configuration, no, commands, no permissions; it runs quietly in the background.
