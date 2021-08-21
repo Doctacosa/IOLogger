@@ -32,12 +32,12 @@ public class ChatListener implements Listener {
 	}
 	
 	
-	 @EventHandler
-	 public void onPlayerCommand(PlayerCommandPreprocessEvent event) {
-		 log(event.getPlayer(), event.getMessage(), "command");
-	 }
-	 
-	 
+	@EventHandler
+	public void onPlayerCommand(PlayerCommandPreprocessEvent event) {
+		log(event.getPlayer(), event.getMessage(), "command");
+	}
+	
+	
 	@EventHandler
 	public void onPlayerJoin(PlayerJoinEvent event) {
 		log(event.getPlayer(), "[" + event.getPlayer().getDisplayName() + " joined]", "chat");
@@ -85,5 +85,5 @@ public class ChatListener implements Listener {
 		}
 		
 		//plugin.getLogger().info(log);
-	 }
+	}
 }
